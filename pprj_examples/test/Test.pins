@@ -1,0 +1,89 @@
+; Fri Mar 06 13:54:30 MSK 2026
+; 
+;+ (version "3.5")
+;+ (build "Build 663")
+
+([Test_Class0] of  CloProgram
+
+	(cloFunctions
+		[Test_Class7]
+		[Test_Class4]
+		[Test_Class10000]
+		[Test_Class5]
+		[Test_Class6])
+	(cloNamespace [Test_Class1])
+	(cloVars
+		[Test_Class2]
+		[Test_Class3])
+	(font-size 14)
+	(function-lines
+		"17--28 start-script []"
+		"29--33 action-listener [obj func]"
+		"34--37 add-button [obj symb func]"
+		"38--40 rset [r val]"
+		"41--75    twocents []")
+	(theme Light)
+	(title "Test"))
+
+([Test_Class1] of  CloNamespace
+
+	(source "(:use protege.core)\n(:import\n  clojuretab.ClojureTab\n  javax.swing.JFrame\n  javax.swing.JLabel\n  javax.swing.JTextField\n  javax.swing.JButton\n  java.awt.event.ActionListener\n  java.awt.GridLayout\n  java.awt.BorderLayout)")
+	(title "test.core"))
+
+([Test_Class10] of  %3AINSTANCE-ANNOTATION
+
+	(%3AANNOTATED-INSTANCE [Test_Class8])
+	(%3ACREATION-TIMESTAMP "2026.03.05 20:40:24.774 MSK")
+	(%3ACREATOR "ru"))
+
+([Test_Class10000] of  CloFunction
+
+	(finish-line 37)
+	(source "(.add obj \n    (doto (JButton. symb) (action-listener func)))")
+	(start-line 34)
+	(title "add-button [obj symb func]"))
+
+([Test_Class2] of  CloVar
+
+	(source "(ref 0)")
+	(title "PERM1"))
+
+([Test_Class3] of  CloVar
+
+	(source "(ref +)")
+	(title "OPP"))
+
+([Test_Class4] of  CloFunction
+
+	(finish-line 33)
+	(source "(.addActionListener obj\n    (proxy [ActionListener] []\n      (actionPerformed [evt] (func evt))))")
+	(start-line 29)
+	(title "action-listener [obj func]"))
+
+([Test_Class5] of  CloFunction
+
+	(finish-line 40)
+	(source "(dosync (ref-set r val))")
+	(start-line 38)
+	(title "rset [r val]"))
+
+([Test_Class6] of  CloFunction
+
+	(finish-line 75)
+	(source ";; Simple calaulator\n  (let [temp-text (JTextField.)\n        get-text #(.getText temp-text)\n        get-number #(if (empty? (get-text))\n                      0\n                      (Double/parseDouble (get-text)))\n        clear-text #(.setText temp-text \"\")\n        set-text #(.setText temp-text %1)\n        add-opp-button #(add-button %1 %2\n                                    (fn [_]\n                                      (rset PERM1 (get-number))\n                                      (clear-text)\n                                      (rset OPP %3)))\n        add-number-button #(add-button %1 (str %2)\n                                       (fn [_]\n                                         (set-text (str (get-text) %2))))]\n    (doto (JFrame. \"2Cents Calculator\")\n      (.add temp-text)\n      (#(doseq [i (range 1 10)] (add-number-button %1 i)))\n      (add-number-button 0)\n      (add-opp-button \"+\" +)\n      (add-opp-button \"-\" -)\n      (add-opp-button \"*\" *)\n      (add-opp-button \"/\" /)\n      (add-button \"=\" (fn [_]\n                        (set-text (str (@OPP @PERM1 (get-number))))))\n      (add-button \"C\" (fn [_]\n                        (clear-text)\n                        (rset PERM1 0)))\n      (.setLayout (new GridLayout 5 2 3 3))\n      (.setSize 250 300)\n      (.setLocationRelativeTo (ClojureTab/main_panel))\n      (.setVisible true)))")
+	(start-line 41)
+	(title " twocents []"))
+
+([Test_Class7] of  CloFunction
+
+	(finish-line 28)
+	(source "(println \"1. Loading Clojure Programs..\")\n  (if-let [wps (fainst (cls-instances \"WorkingPrograms\") nil)]\n    (do \n      (loop [i 1 pins (svs wps \"cloPrograms\")]\n        (when (seq pins)\n          (println (str \" 1.\" i \" \" (sv (first pins) \"title\") \" = \" (ClojureTab/loadProgram (first pins))))\n          (recur (inc i) (rest pins))))\n      (println \"2. Calculator..\")\n      (ClojureTab/invoke \"test.core\" \"twocents\"))\n    (println \"  Annotated instance of WorkingPrograms not found!\"))")
+	(start-line 17)
+	(title "start-script []"))
+
+([Test_Class8] of  WorkingPrograms
+
+	(cloPrograms
+		[ProClojure_Class60001]
+		[Test_Class0])
+	(title "Test Programs"))

@@ -1,0 +1,7 @@
+2026.03.05 19:13:21.130 MSK INFO: *** SYSTEM START ***
+2026.03.05 19:13:21.263 MSK WARNING: missing bundle: protege_text -- BundleHelper.<init>()
+2026.03.05 19:17:53.624 MSK INFO: Load time for file:/home/ru/clojure/ClojureProtegeIDE/pprj_examples/Test.pprj = 0 sec (project) + 0 sec (ui) -- ProjectManager$3.run()
+2026.03.11 21:31:56.442 MSK INFO: *** SYSTEM START ***
+2026.03.11 21:31:56.752 MSK WARNING: missing bundle: protege_text -- BundleHelper.<init>()
+2026.03.11 21:33:22.445 MSK INFO: Project load time for file:/home/ru/clojure/ClojureProtegeIDE/pprj_examples/test/Test.pprj: 0 sec -- ProjectChooser.loadProject()
+2026.03.11 21:33:24.462 MSK INFO: UI display time = 2 sec -- ProjectManager$2.run()

@@ -1,0 +1,15 @@
+{:deps
+ {org.clojure/clojure {:local/root "lib_ext/clojure-1.12.4.jar"}
+  org.clojure/core.specs.alpha {:local/root "lib_ext/core.specs.alpha-0.4.74.jar"}
+  org.clojure/specs.alpha {:local/root "lib_ext/spec.alpha-0.5.238.jar"}
+  protege/protege {:local/root "lib_pro/protege-3.5.0.jar"}
+  protege/standard-extensions {:local/root "lib_pro/standard-extensions-3.5.0.jar"}
+  protege/looks {:local/root "lib_pro/looks-3.5.0.jar"}
+  protege/unicode_panel {:local/root "lib_pro/unicode_panel-3.5.0.jar"}
+  protege/JGo {:local/root "lib_pro/JGo-3.5.0.jar"}
+  protege/JGoLayout {:local/root "lib_pro/JGoLayout-3.5.0.jar"}
+  protege/ProtegeExtensions {:local/root "lib_pro/ProtegeExtensions.jar"}
+  protege/ClojureTab {:local/root "lib/ClojureTab-2.0.jar"}
+  com.formdev/flatlaf {:local/root "lib_ext/flatlaf-3.6.2.jar"}}
+ :paths ["src" "src/clojure" "classes" "resources"]}
+
