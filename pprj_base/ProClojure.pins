@@ -1,4 +1,4 @@
-; Tue Mar 10 14:00:03 MSK 2026
+; Thu Mar 12 11:52:22 MSK 2026
 ; 
 ;+ (version "3.5")
 ;+ (build "Build 663")
@@ -677,9 +677,33 @@
 	(source "(:use protege.core)\n(:import\n  clojuretab.ProgramGenerator)")
 	(title "edit.support"))
 
+([ProClojure_Class70000] of  CloDocumentation
+
+	(source "https://protege.stanford.edu/download//protege/3.5/docs/api/core/")
+	(title "Protege 3.5 API"))
+
 ([ProClojure_Class70001] of  CloFunction
 
 	(finish-line 14)
 	(source "(ProgramGenerator/closeAllEditors)")
 	(start-line 12)
 	(title "close-all-editors [hm inst]"))
+
+([ProClojure_Class80001] of  CloDocumentation
+
+	(source "file:doc/index.html")
+	(title "ClojureTab-2.0 API"))
+
+([ProClojure_Class80002] of  %3AINSTANCE-ANNOTATION
+
+	(%3AANNOTATED-INSTANCE [ProClojure_Class80001])
+	(%3AANNOTATION-TEXT "Better to look using your own web browser!")
+	(%3ACREATION-TIMESTAMP "2026.03.12 11:44:07.953 MSK")
+	(%3ACREATOR "ru"))
+
+([ProClojure_Class80003] of  %3AINSTANCE-ANNOTATION
+
+	(%3AANNOTATED-INSTANCE [ProClojure_Class50003])
+	(%3AANNOTATION-TEXT "Better to look using your own web browser!")
+	(%3ACREATION-TIMESTAMP "2026.03.12 11:46:33.465 MSK")
+	(%3ACREATOR "ru"))

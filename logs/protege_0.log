@@ -182,3 +182,6 @@
 2026.03.11 21:27:39.454 MSK INFO: *** SYSTEM START ***
 2026.03.11 21:27:39.771 MSK WARNING: missing bundle: protege_text -- BundleHelper.<init>()
 2026.03.11 21:27:46.433 MSK INFO: Load time for file:/home/ru/clojure/ClojureProtegeIDE/pprj_examples/newspaper/newspaper.pprj = 0 sec (project) + 2 sec (ui) -- ProjectManager$3.run()
+2026.03.12 11:33:48.863 MSK INFO: *** SYSTEM START ***
+2026.03.12 11:33:49.710 MSK WARNING: missing bundle: protege_text -- BundleHelper.<init>()
+2026.03.12 11:33:57.750 MSK INFO: Load time for file:/home/ru/clojure/ClojureProtegeIDE/pprj_base/ProClojure.pprj = 0 sec (project) + 2 sec (ui) -- ProjectManager$3.run()

@@ -1,4 +1,4 @@
-; Tue Mar 10 14:00:03 MSK 2026
+; Thu Mar 12 11:52:22 MSK 2026
 ; 
 ;+ (version "3.5")
 ;+ (build "Build 663")
@@ -12,6 +12,7 @@
 	(height 100)
 	(is_hidden FALSE)
 	(name ":ANNOTATION-TEXT")
+	(property_list [ProClojure_ProjectKB_Class10024])
 	(widget_class_name "edu.stanford.smi.protege.widget.YellowStickyWidget")
 	(width 200)
 	(x 0)
@@ -20,22 +21,22 @@
 ([BROWSER_SLOT_NAMES] of  Property_List
 
 	(properties
-		[ProClojure_ProjectKB_Class10004]
-		[ProClojure_ProjectKB_Class10005]
-		[ProClojure_ProjectKB_Class10006]
-		[ProClojure_ProjectKB_Class10007]
-		[ProClojure_ProjectKB_Class10008]
-		[ProClojure_ProjectKB_Class10009]
-		[ProClojure_ProjectKB_Class10010]
-		[ProClojure_ProjectKB_Class10011]
-		[ProClojure_ProjectKB_Class10012]
-		[ProClojure_ProjectKB_Class10013]
-		[ProClojure_ProjectKB_Class10014]
-		[ProClojure_ProjectKB_Class10015]
-		[ProClojure_ProjectKB_Class10016]
-		[ProClojure_ProjectKB_Class10017]
-		[ProClojure_ProjectKB_Class10018]
-		[ProClojure_ProjectKB_Class10019]))
+		[ProClojure_ProjectKB_Class10025]
+		[ProClojure_ProjectKB_Class10026]
+		[ProClojure_ProjectKB_Class10027]
+		[ProClojure_ProjectKB_Class10028]
+		[ProClojure_ProjectKB_Class10029]
+		[ProClojure_ProjectKB_Class10030]
+		[ProClojure_ProjectKB_Class10031]
+		[ProClojure_ProjectKB_Class10032]
+		[ProClojure_ProjectKB_Class10033]
+		[ProClojure_ProjectKB_Class10034]
+		[ProClojure_ProjectKB_Class10035]
+		[ProClojure_ProjectKB_Class10036]
+		[ProClojure_ProjectKB_Class10037]
+		[ProClojure_ProjectKB_Class10038]
+		[ProClojure_ProjectKB_Class10039]
+		[ProClojure_ProjectKB_Class10040]))
 
 ([Clojure_ProjectKB_Class100004] of  Boolean
 
@@ -632,7 +633,7 @@
 
 ([Clojure_ProjectKB_Class30007] of  Widget
 
-	(height 620)
+	(height 750)
 	(is_hidden FALSE)
 	(name "source")
 	(property_list [Clojure_ProjectKB_Class40008])
@@ -1134,7 +1135,8 @@
 		[ANNOTATED_INSTANCE_WIDGET]
 		[CREATOR_WIDGET]
 		[CREATION_TIMESTAMP_WIDGET]
-		[ANNOTATION_TEXT_WIDGET]))
+		[ANNOTATION_TEXT_WIDGET]
+		[ProClojure_ProjectKB_Class10023]))
 
 ([INSTANCES_TAB] of  Widget
 
@@ -1149,9 +1151,11 @@
 ([KB_127677_Class1] of  Map
 
 	(entries
-		[ProClojure_ProjectKB_Class10020]
-		[ProClojure_ProjectKB_Class10021]
-		[ProClojure_ProjectKB_Class10022]))
+		[ProClojure_ProjectKB_Class10041]
+		[ProClojure_ProjectKB_Class10045]
+		[ProClojure_ProjectKB_Class10046]
+		[ProClojure_ProjectKB_Class10047])
+	(referenced_maps [ProClojure_ProjectKB_Class10042]))
 
 ([KB_127677_Class100] of  Property_List
 )
@@ -1247,7 +1251,7 @@
 ([KB_127677_Class99] of  Property_List
 )
 
-([KB_917565_Class3] of  Map
+([KB_717787_Class3] of  Map
 )
 
 ([LAYOUT_PROPERTIES] of  Property_List
@@ -1329,103 +1333,137 @@
 	(x 0)
 	(y 60))
 
-([ProClojure_ProjectKB_Class10004] of  String
+([ProClojure_ProjectKB_Class10023] of  Property_List
+
+	(name "layout properties"))
+
+([ProClojure_ProjectKB_Class10024] of  Property_List
+)
+
+([ProClojure_ProjectKB_Class10025] of  String
 
 	(name "WorkingPrograms")
 	(string_value "title"))
 
-([ProClojure_ProjectKB_Class10005] of  String
+([ProClojure_ProjectKB_Class10026] of  String
 
 	(name "CloFunction")
 	(string_value "title"))
 
-([ProClojure_ProjectKB_Class10006] of  String
+([ProClojure_ProjectKB_Class10027] of  String
 
 	(name "CloExtendType")
 	(string_value "title"))
 
-([ProClojure_ProjectKB_Class10007] of  String
+([ProClojure_ProjectKB_Class10028] of  String
 
 	(name "CloRecord")
 	(string_value "title"))
 
-([ProClojure_ProjectKB_Class10008] of  String
+([ProClojure_ProjectKB_Class10029] of  String
 
 	(name "CloProgram")
 	(string_value "title"))
 
-([ProClojure_ProjectKB_Class10009] of  String
+([ProClojure_ProjectKB_Class10030] of  String
 
 	(name "CloProtocol")
 	(string_value "title"))
 
-([ProClojure_ProjectKB_Class10010] of  String
+([ProClojure_ProjectKB_Class10031] of  String
 
 	(name "CloFuncall")
 	(string_value "source"))
 
-([ProClojure_ProjectKB_Class10011] of  String
+([ProClojure_ProjectKB_Class10032] of  String
 
 	(name "Funcall")
 	(string_value "function{+}arguments"))
 
-([ProClojure_ProjectKB_Class10012] of  String
+([ProClojure_ProjectKB_Class10033] of  String
 
 	(name "CloVar")
 	(string_value "title"))
 
-([ProClojure_ProjectKB_Class10013] of  String
+([ProClojure_ProjectKB_Class10034] of  String
 
 	(name "CloDocument")
 	(string_value "title"))
 
-([ProClojure_ProjectKB_Class10014] of  String
+([ProClojure_ProjectKB_Class10035] of  String
 
 	(name "CloMacro")
 	(string_value "title"))
 
-([ProClojure_ProjectKB_Class10015] of  String
+([ProClojure_ProjectKB_Class10036] of  String
 
 	(name "CloNamespace")
 	(string_value "title"))
 
-([ProClojure_ProjectKB_Class10016] of  String
+([ProClojure_ProjectKB_Class10037] of  String
 
 	(name ":META-CLASS")
 	(string_value "%3ANAME"))
 
-([ProClojure_ProjectKB_Class10017] of  String
+([ProClojure_ProjectKB_Class10038] of  String
 
 	(name "CloDocumentation")
 	(string_value "title"))
 
-([ProClojure_ProjectKB_Class10018] of  String
+([ProClojure_ProjectKB_Class10039] of  String
 
 	(name "Envalue")
 	(string_value "N{+}value"))
 
-([ProClojure_ProjectKB_Class10019] of  String
+([ProClojure_ProjectKB_Class10040] of  String
 
 	(name "CloExtendProtocol")
 	(string_value "title"))
 
-([ProClojure_ProjectKB_Class10020] of  Map_Entry
+([ProClojure_ProjectKB_Class10041] of  Map_Entry
 
 	(key "suppress_instance_counting")
 	(key_class "java.lang.String")
 	(value "false")
 	(value_class "java.lang.String"))
 
-([ProClojure_ProjectKB_Class10021] of  Map_Entry
+([ProClojure_ProjectKB_Class10042] of  Map
 
-	(key "change_tracking_active")
+	(entries
+		[ProClojure_ProjectKB_Class10043]
+		[ProClojure_ProjectKB_Class10044]))
+
+([ProClojure_ProjectKB_Class10043] of  Map_Entry
+
+	(key "ProClojure_Class80003")
+	(key_class "edu.stanford.smi.protege.model.Frame")
+	(value "661 572 281 136")
+	(value_class "java.awt.Rectangle"))
+
+([ProClojure_ProjectKB_Class10044] of  Map_Entry
+
+	(key "ProClojure_Class80002")
+	(key_class "edu.stanford.smi.protege.model.Frame")
+	(value "5 244 297 136")
+	(value_class "java.awt.Rectangle"))
+
+([ProClojure_ProjectKB_Class10045] of  Map_Entry
+
+	(key "InstanceDisplay.yellow_stickies")
+	(key_class "java.lang.String")
+	(value "ProClojure_ProjectKB_Class10042")
+	(value_class "java.util.Map"))
+
+([ProClojure_ProjectKB_Class10046] of  Map_Entry
+
+	(key "add_name_on_instance_form")
 	(key_class "java.lang.String")
 	(value "false")
 	(value_class "java.lang.String"))
 
-([ProClojure_ProjectKB_Class10022] of  Map_Entry
+([ProClojure_ProjectKB_Class10047] of  Map_Entry
 
-	(key "add_name_on_instance_form")
+	(key "change_tracking_active")
 	(key_class "java.lang.String")
 	(value "false")
 	(value_class "java.lang.String"))
