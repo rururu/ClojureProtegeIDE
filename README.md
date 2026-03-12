@@ -6,8 +6,8 @@ based on the [Protege 3.5](https://protege.stanford.edu/download/protege/3.5/ins
 
 ## Special Features
 
-1. **Representing knowledge as ontologies**
-Using an ontology editor Protege 3.5to represent a subject area (frame data model) in object-orientet form.
+1. **Representing knowledge as ontologies.**
+Using an ontology editor Protege 3.5 to represent a subject area (frame data model) in object-orientet form.
 
 2. **Program.** 
 In Clojure, there's no concept of a "program"; there's only the concept of a "namespace". 
